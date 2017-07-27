@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="klab.mastodon_api_test.MainActivity"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/spacer"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_weight="0.22"
+        tools:text="log" />
+
+    <Button
+        android:id="@+id/userbutton"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@android:color/holo_green_light"
+        android:backgroundTint="@android:color/darker_gray"
+        android:elevation="0dp"
+        android:text="user"
+        android:textColor="@android:color/white"
+        android:textSize="30sp"
+        android:visibility="visible" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_weight="0.06"
+        android:entries="@array/spinner" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:hint="post"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/postbutton"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/side_nav_bar"
+        android:text="post"
+        android:textColor="@android:color/white"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_weight="0.22"
+        android:textSize="10sp"
+        tools:text="log" />
+
+</LinearLayout>

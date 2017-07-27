@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Mastodon_API_Test</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string-array name="spinner">
+        <item>public</item> //公開
+        <item>unlisted</item> //未収載
+        <item>private</item> //非公開
+        <item>direct</item> //ダイレクト
+    </string-array>
+</resources>
